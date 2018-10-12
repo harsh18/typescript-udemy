@@ -22,7 +22,7 @@ https://coderbyte.com/
 ### HackerRank
 https://www.hackerrank.com/
 
-###Geekforgeek
+### Geekforgeek
 https://www.geeksforgeeks.org/category/geek-on-the-top/
 
 # How to deliver Exercise or create Personal Projects
