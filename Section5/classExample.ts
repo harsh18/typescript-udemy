@@ -64,7 +64,6 @@ class Gamma extends Person{
         this.address = address;
     }
 }
-
 const gammaUser = new Gamma();
 gammaUser.setAddress('Delhi');
 console.log(gammaUser);

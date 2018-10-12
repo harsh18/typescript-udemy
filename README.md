@@ -13,3 +13,25 @@ https://medium.com/basecs/grammatically-rooting-oneself-with-parse-trees-ec9daed
 
 ### SOLID Priciples
 https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688
+
+## Coding Practice
+
+### CodeByte
+https://coderbyte.com/
+
+### HackerRank
+https://www.hackerrank.com/
+
+###Geekforgeek
+https://www.geeksforgeeks.org/category/geek-on-the-top/
+
+# How to deliver Exercise or create Personal Projects
+
+## Steps
+### 1. Think about the requirement and create story board on trello
+https://trello.com/
+### 2. Create Github repo
+### 3. Think about the tech stack and complete documentation on Readme file about the project and tech stack being used. Also enter details in Idea page for Working Backwards
+### 4. Develop
+### 5. Refactor and clean up your code 
+### 6. Deliver via zip or host on any free platform
