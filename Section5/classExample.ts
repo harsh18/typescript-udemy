@@ -86,3 +86,67 @@ const candor = new Sez();
 candor.sezName = 'Candor';
 console.log(candor.sezName);
 
+//Static Properties and methods in Class
+class Helpers{
+    static pi = 3.14;
+
+    static circumference(radius: number):number{
+        return Helpers.pi * radius;
+    }
+}
+
+console.log(`Pi value - ${Helpers.pi}`);
+console.log(`Circumference of a circle - ${Helpers.circumference(2)}`);
+
+//Abstract Class
+abstract class Javascript{
+    libraryName: string;
+
+    //This is a abstract method which should be implemented
+    //whichever class will inherit javascript class
+    abstract changeLibraryName(name: string):void;
+
+    ecmaScriptVersion(): number{
+        return 6
+    }
+}
+
+class Reactjs extends Javascript{
+    libName: string = 'React js';
+    changeLibraryName(name: string): void{
+        this.libName = name;
+    }
+}
+
+const reactJs_16 = new Reactjs();
+
+console.log(reactJs_16.libName);
+reactJs_16.changeLibraryName('Fiber');
+console.log(reactJs_16.libName);
+
+//Private Constructor and Singleton and readonly property
+class OnlyOne{
+    private static instance: OnlyOne;
+    public readonly numberOfInstance: number;
+
+    private constructor(public name: string){}
+
+    static getInstance(){
+        if (!OnlyOne.instance){
+            return new OnlyOne('Single instance');
+        }
+
+        return OnlyOne.instance;
+    }
+}
+
+//Error if we directly create instance of singleton class
+//console.log(new OnlyOne('sss'));
+const singleInstance = OnlyOne.getInstance();
+console.log(singleInstance);
+
+//Error in below line as numberOfInstance is readonly property
+//singleInstance.numberOfInstance = 2;
+
+
+
