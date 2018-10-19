@@ -2,6 +2,10 @@
 
 # Study Material
 
+##33 Javscript concept that every JS developer should know
+https://github.com/leonardomso/33-js-concepts
+
+
 ## Architecture for Typescript
 https://github.com/Microsoft/TypeScript/wiki/Architectural-Overview
 
